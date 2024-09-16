@@ -34,6 +34,7 @@ def test_tomarFicha_sin_argumentos():
     a.fichas = 5 
     a.tomarFicha()
     assert(a.fichas == 4)
+
 def test_tomarFicha_error():
     with pytest.raises(ValueError):
         a = Apuesta()
