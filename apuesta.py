@@ -1,6 +1,6 @@
 class Apuesta:
     def __init__(self): #init: iniciar todo el equipo que definiste#
-        self.fichas = 0 #self: representa el objeto, como fichas en este caso# 
+        self.fichas = 4 #self: representa el objeto, como fichas en este caso# 
 
     def __repr__(self):
         return f"Apuesta: {self.fichas} fichas"
